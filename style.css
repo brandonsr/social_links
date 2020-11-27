@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: #FFF;
+}
+
+p{
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.twitter{
+    border: 3px solid #FFF;
+    padding: 20px 5px;
+    margin: 50px 100px;
+    display: block;
+}
+
+.twitter ul li{
+    list-style: none;
+}
+
+.twitter ul li a{
+    text-decoration: none;
+}
+
+.twitter ul li a:hover{
+    color: #000011;
+}
+
+.main{
+    align-items: center;
+    text-align: center;
+    max-width: 1000px; 
+    width: 100%;
+    margin-right: 100px;
+}
